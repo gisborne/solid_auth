@@ -1,13 +1,13 @@
 {
   "@context": "https://www.w3.org/ns/solid/oidc-context.jsonld",
-  "client_id": "https://github.com/gisborne/solid_auth",
+  "client_id": "https://gisborne.github.io/solid_auth/client_profile.jsonld",
   "client_name": "MyPodApp",
   "application_type": "native",
   "redirect_uris": [
-    "https://github.com/gisborne/solid_auth"
+    "https://gisborne.github.io/solid_auth/redirect.html"
   ],
   "post_logout_redirect_uris": [
-    "https://github.com/gisborne/solid_auth/blob/main/redirect.html",
+    "https://gisborne.github.io/solid_auth/redirect.html",
     "com.example.mypodapp://redirect",
     "http://localhost:4400/redirect"
   ],
